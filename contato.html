@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora IFPR - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Locadora IFPR</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="filiais.html">Filiais</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+        <form class="contato-form" action="action_contato.php" method="POST">
+        <input type="text" placeholder="Nome" name="nome" required>
+        <input type="email" placeholder="E-mail" name="email" required>
+        <label for="data"></label> </label><input type="date" id="data" name="data">
+        <label for="idade"></label><input type="number" placeholder="idade" id="idade" name="idade" min="1" max="120">
+        <textarea placeholder="Mensagem" rows="5" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Locadora IFPR - Venha compra com nos a melhor locadora do mundo</p>
+    </footer>
+</body>
+
+</html>

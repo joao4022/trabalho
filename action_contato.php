@@ -36,7 +36,7 @@
 
                 // Exibe os outros campos que o aluno adicionar
                 foreach ($_POST as $campo => $valor) {
-                    if (!in_array($campo, ["nome", "email", "mensagem"])) {
+                    if (!in_array($campo, ["nome", "idade", "email", "mensagem", "data"])) {
                         echo "<p><strong>" . ucfirst($campo) . ":</strong> " . htmlspecialchars($valor) . "</p>";
                     }
                 }
@@ -49,8 +49,7 @@
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2025 Locadora IFPR - Todos os direitos reservados</p>
-    </footer>
+        <p>&copy; 2025 Locadora IFPR - Venha compra com nos a melhor locadora do mundo </footer>
 
 </body>
 

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora IFPR - Filiais</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1e3d59;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h2 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        main h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1e3d59;
+        }
+
+        .filiais {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .filial {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .filial:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .filial h2 {
+            color: #1e3d59;
+            margin-bottom: 10px;
+        }
+
+        .filial p {
+            color: #555;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1e3d59;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h2>Locadora IFPR</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="filiais.html">Filiais</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <h1>Nossas Filiais</h1>
+        <div class="filiais">
+            <div class="filial">
+                <h2>Filial Curitiba</h2>
+                <p>Rua das Flores, 123 - Centro</p>
+            </div>
+            <div class="filial">
+                <h2>Filial Ponta Grossa</h2>
+                <p>Avenida Vicente Machado, 456 - Centro</p>
+            </div>
+            <div class="filial">
+                <h2>Filial Telêmaco Borba</h2>
+                <p>Rua Paraná, 789 - Centro</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Locadora IFPR -  Venha compra com nos a melhor locadora do mundo</p>
+    </footer>
+
+</body>
+
+</html>
